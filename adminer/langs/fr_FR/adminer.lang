@@ -1,0 +1,22 @@
+# ADMINER MODULE - fr_FR
+#
+# Copyright (C) 2019 AXeL
+
+#
+# Generic
+#
+Module967000Name = Adminer
+Module967000Desc = Outil de gestion de base de données complet
+Adminer = Adminer
+AdminerWithIcon = <i class="fa fa-database fa-fw paddingright"></i>Adminer
+AdminerLogin = Identifiants de connexion
+Server = Serveur
+Username = Identifiant
+Password = Mot de passe
+Database = Base de données
+ShowPassword = Afficher
+
+#
+# Permissions
+#
+UseAdminer = Utiliser Adminer
