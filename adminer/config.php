@@ -9,7 +9,7 @@ global $dolibase_config;
 $dolibase_config['module'] = array(
 	'name'                      => 'Adminer',
 	'desc'                      => 'Module967000Desc',
-	'version'                   => '1.0',
+	'version'                   => '1.1',
 	'number'                    => '656877730',
 	'family'                    => 'other',
 	'position'                  => 500,
@@ -23,7 +23,7 @@ $dolibase_config['module'] = array(
 	'depends'                   => array(),
 	'required_by'               => array(),
 	'conflit_with'              => array(),
-	'check_updates'             => true,
+	'check_updates'             => false,
 	'enable_logs'               => false,
 	'enable_triggers'           => false,
 	'enable_for_external_users' => false
