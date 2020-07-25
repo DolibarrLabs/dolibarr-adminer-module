@@ -17,6 +17,11 @@ class modAdminer extends DolibaseModule
 	 */
 	public function loadSettings()
 	{
+		// Update picto for Dolibarr 12++
+		if (function_exists('version_compare') && version_compare(DOL_VERSION, '12.0.0') >= 0) {
+			$this->picto = "adminer_128.png@adminer";
+		}
+
 		// Set permissions
 		$this->addPermission("use", "UseAdminer", "u");
 
