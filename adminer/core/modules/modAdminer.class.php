@@ -23,7 +23,7 @@ class modAdminer extends DolibaseModule
 		}
 
 		// Set permissions
-		$this->addPermission("use", "UseAdminer", "u");
+		$this->addPermission("use", "UseAdminer", "u", 0);
 
 		// Add menus
 		$menu_title = compare_version(DOL_VERSION, '<' ,'7.0.0') ? "Adminer" : "AdminerWithIcon";
