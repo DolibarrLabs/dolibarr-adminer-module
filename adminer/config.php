@@ -9,7 +9,7 @@ global $dolibase_config;
 $dolibase_config['module'] = array(
 	'name'                      => 'Adminer',
 	'desc'                      => 'Module967000Desc',
-	'version'                   => '1.4',
+	'version'                   => '1.5',
 	'number'                    => '656877730',
 	'family'                    => 'other',
 	'position'                  => 500,
